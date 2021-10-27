@@ -1,7 +1,6 @@
-1º Digitar algum erro JS com erro em resources\js\app.js
-2º Vai dar erro no deploy
-3º Se remover o codigo com erro o deploy segue normalmente
-
+<p>1º Digitar algum erro JS com erro em resources\js\app.js</p>
+<p>2º Vai dar erro no deploy</p>
+<p>3º Se remover o codigo com erro o deploy segue normalmente</p>
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
