@@ -1,9 +1,12 @@
-name: Laravel Workflow
+name: CI
 on: push
 
 jobs:
   build:
-    name: Laravel Build
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+    - name: Install modules
+      run: npm
+    - name: Run ESLint
+      run: eslint resources/js/**/*.js
